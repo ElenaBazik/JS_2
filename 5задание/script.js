@@ -1,9 +1,6 @@
-var x;
-var y;
-var z;
-x=prompt("Введите первое число X:","");
-y=prompt("Введите второе число Y:","");
-z=prompt("Введите третье число Z:","");
+var x = parseInt(prompt("Введите первое число X:",""));
+var y = parseInt(prompt("Введите второе число Y:",""));
+var z = parseInt(prompt("Введите третье число Z:",""));
 if(x==""){
 	alert("Вы не ввели первое число X!");
 }
